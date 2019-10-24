@@ -9,5 +9,10 @@
             "email": "pablo@dalloglio.net"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "PabloDalloglio\\Accordion": "src/"
+        }
+    }
 }

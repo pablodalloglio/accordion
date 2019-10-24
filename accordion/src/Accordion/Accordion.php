@@ -1,5 +1,5 @@
 <?php
-namespace pablodalloglio\Accordion;
+namespace PabloDalloglio\Accordion;
 
 use Adianti\Widget\Base\TElement;
 
