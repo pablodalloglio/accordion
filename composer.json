@@ -11,8 +11,8 @@
     ],
     "require": {},
     "autoload": {
-        "psr-0": {
-            "PabloDalloglio\\Accordion": "src/"
+        "psr-4": {
+            "PabloDalloglio\\Accordion\\": "src"
         }
     }
 }
