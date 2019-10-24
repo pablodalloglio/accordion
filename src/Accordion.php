@@ -2,6 +2,8 @@
 namespace PabloDalloglio\Accordion;
 
 use Adianti\Widget\Base\TElement;
+use Adianti\Widget\Base\TScript;
+use Adianti\Widget\Base\TStyle;
 
 /**
  * TAccordion Container
