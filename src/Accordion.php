@@ -6,10 +6,7 @@ use Adianti\Widget\Base\TScript;
 use Adianti\Widget\Base\TStyle;
 
 /**
- * TAccordion Container
- * Copyright (c) 2006-2010 Pablo Dall'Oglio
- * @author  Pablo Dall'Oglio <pablo [at] adianti.com.br>
- * @version 2.0, 2007-08-01
+ * Accordion Container
  */
 class Accordion extends TElement
 {
@@ -26,9 +23,9 @@ class Accordion extends TElement
     }
     
     /**
-     * Add an object to the accordion
+     * Add a page to the accordion
      * @param $title  Title
-     * @param $objeto Content
+     * @param $object Content
      */
     public function appendPage($title, $object)
     {
@@ -54,8 +51,8 @@ class Accordion extends TElement
             parent::add($content);
         }
         
-        TStyle::importFromFile('app/lib/include/taccordion/taccordion.css');
-        TScript::importFromFile('app/lib/include/taccordion/taccordion.js');
+        TStyle::importFromFile('vendor/pablodalloglio/accordion/src/accordion.css');
+        TScript::importFromFile('vendor/pablodalloglio/accordion/src/accordion.js');
         
         parent::show();
     }
