@@ -8,7 +8,7 @@ use Adianti\Widget\Base\TStyle;
 /**
  * Accordion Container
  */
-class Accordion extends TElement
+class AccordionContainer extends TElement
 {
     protected $elements;
     
@@ -27,7 +27,7 @@ class Accordion extends TElement
      * @param $title  Title
      * @param $object Content
      */
-    public function appendPage($title, $object)
+    public function addContent($title, $object)
     {
         $this->elements[] = array($title, $object);
     }
